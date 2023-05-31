@@ -655,7 +655,7 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 10px;
+  padding-top: 0px;
 }
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
@@ -714,6 +714,7 @@ section {
 .fixdetails{  
   height: 100vh;
   overflow: hidden;
+  background-color: #f3f3f3;
 }
 .fixdetails:hover{  
   overflow: auto;
