@@ -661,8 +661,8 @@ section {
   width: 100%;
 }
 .clife .portfolio-details .portfolio-details-slider img {
-  height: auto;
-  width: 100%;
+  height: 100dvh;
+  width: auto;
 }
 .portfolio-details .col-lg-8{  
   align-items: center;
