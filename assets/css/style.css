@@ -110,6 +110,17 @@ h1, h2, h3, h4, h5, h6 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+  
+.of-hidden{  
+  overflow: auto;
+}
+.clife .portfolio-details .portfolio-details-slider img {
+    width: 100%;
+    height: auto;
+}
+.portfolio-details .portfolio-description {
+  padding: 30px 15px;
+}
 }
 /*--------------------------------------------------------------
 # Header
@@ -660,9 +671,11 @@ section {
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
+@media screen and (min-width: 992px) {
 .clife .portfolio-details .portfolio-details-slider img {
   height: 100dvh;
   width: auto;
+}
 }
 .portfolio-details .col-lg-8{  
   align-items: center;
@@ -727,9 +740,6 @@ section {
 }
 .fixdetails:hover{  
   overflow: auto;
-}
-.of-hidden{  
-  overflow: hidden;
 }
 /*--------------------------------------------------------------
 # Services
@@ -904,6 +914,10 @@ section {
   .testimonials .testimonial-item p {
     width: 80%;
   }
+  
+.of-hidden{  
+  overflow: hidden;
+}
 }
 
 /*--------------------------------------------------------------
