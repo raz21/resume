@@ -110,6 +110,11 @@ h1, h2, h3, h4, h5, h6 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+  .fixdetails{  
+    height: auto !important;
+    overflow: auto !important;
+    background-color: #f3f3f3;
+  }
   
 .of-hidden{  
   overflow: auto;
