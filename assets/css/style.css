@@ -384,6 +384,36 @@ section {
   bottom: 0;
   left: calc(50% - 20px);
 }
+
+.section-title h3 {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  color: #6c8093;
+}
+.section-title h3::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.section-title h3::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #0563bb;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
 .section-title p {
   margin-bottom: 0;
 }
@@ -458,8 +488,15 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# skills
 --------------------------------------------------------------*/
+.card-img, .card-img-bottom, .card-img-top {
+  /* height: 150px;
+  width: auto; */
+  /* height:200px; 
+  width:200px; */
+  padding: 1rem 3rem;
+}
 .skills .progress {
   height: 60px;
   display: block;
@@ -488,7 +525,35 @@ section {
   transition: 0.9s;
   background-color: #0563bb;
 }
-
+.skillcarousel .card-body {
+  background-color: #eceeef;
+  text-align: center;
+  padding: 0.3rem 1rem;
+}
+.skillcarousel .card-body .h5, h5 {
+  font-size: 0.8rem;
+  margin-bottom: 0rem;
+  font-weight: 600;
+}
+.Whatmakesbox {
+  /* background-color: #f7f7ff;
+  box-shadow: -8px 9px 7px -5px #d3d3d3; */  
+  background-color: #f7f7ff;
+  box-shadow: 0px 0px 8px 0px #d3d3d3;
+}
+.Whatmakesbox .flex{
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+.Whatmakesbox .text-black {
+  font-size: 0.9rem;
+}
+.Whatmakesbox i.bi {
+  font-size: 1.5rem;
+  color: #0563bb;
+  padding: 0 1rem;
+}
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
