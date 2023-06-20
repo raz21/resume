@@ -607,7 +607,14 @@ section {
   background: #fff;
   border: 2px solid #0563bb;
 }
-
+.std-btn {
+  background-color: #0563bb;
+  padding: 1em 2em;
+  border-radius: 2em;
+}
+a.std-btn {
+  color: #fff;
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -1149,10 +1156,10 @@ section {
   font-size: 15;
   font-style: italic;
   padding: 0;
-  margin: 0 0 40px 0;
+  margin: 0 0 20px 0;
 }
 #footer .social-links {
-  margin: 0 0 40px 0;
+  margin: 30px 0;
 }
 #footer .social-links a {
   font-size: 18px;
