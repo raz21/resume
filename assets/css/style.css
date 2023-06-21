@@ -57,6 +57,9 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
+.carousel-sm{
+  display: none;
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -115,6 +118,19 @@ h1, h2, h3, h4, h5, h6 {
     overflow: auto !important;
     background-color: #f3f3f3;
   }
+
+  .carousel-lg{
+    display: none;
+  }
+  .carousel-sm{
+    display: block;
+  }
+  .carousel-sm .card-img-top {
+    padding: 1rem 1.5rem;
+}
+.carousel-sm .container-sm{
+  padding: 0;
+}
   
 .of-hidden{  
   overflow: auto;
